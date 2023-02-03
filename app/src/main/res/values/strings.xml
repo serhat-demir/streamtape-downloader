@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Streamtape Downloader</string>
+
+    <!-- ui -->
+    <string name="video_id">Video ID</string>
+    <string name="get_download_url">Get Download Url</string>
+
+    <string name="video_is_preparing_to_download_0">Video is preparing to download: 0%</string>
+    <string name="video_is_ready_to_download">Video Is Ready To Download</string>
+
+    <string name="copy_url">Copy Url</string>
+    <string name="download">Download</string>
+
+    <string name="video_title">Video Title</string>
+    <string name="download_url">Download Url</string>
+
+    <string name="download_link_copied">Download link copied to clipboard</string>
+
+    <!-- repo -->
+    <string name="msg_error">Something went wrong.</string>
+    <string name="msg_credentials_error">You must set your credentials first.</string>
+    <string name="msg_file_id_error">Enter file id</string>
+
+    <string name="msg_video_preparing">Video is preparing to download:</string>
+    <string name="msg_download_url_generating">Download url is generating…</string>
+    <string name="msg_video_ready">Video is ready to download</string>
+
+    <!-- credentials dialog -->
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- prefs -->
+    <string name="prefs_login">login</string>
+    <string name="prefs_key">key</string>
+    <string name="msg_credentials_empty">User credentials can not be empty.</string>
+    <string name="msg_credentials_saved">Credentials saved</string>
+</resources>

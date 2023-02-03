@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/md_green_400</item>
+        <item name="strokeColor">@color/md_green_400</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="defaultInvisible" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:visibility">gone</item>
+    </style>
+</resources>
