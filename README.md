@@ -17,7 +17,7 @@ After you download the app, you must sign up to Streamtape and take your API cre
 
 If you want to edit the application, follow these steps:
 - Clone repository to your desktop: <br/>
-`git clone https://github.com/serhat-demir/streamtape-video-downloader.git`
+`git clone https://github.com/serhat-demir/streamtape-downloader.git`
 
 - Open project on Android Studio IDE: <br/>
 `file > open`
