@@ -1,13 +1,6 @@
 # streamtape-downloader
 Streamtape video downloader application for Android
 
-# Features
-- MVVM - LiveData
-- DataBinding
-- Dependency Injection (Dagger2-Hilt)
-- Retrofit - RxJava2 - OkHttp
-- Streamtape API
-
 # Installation
 If you want to use the application, just download the apk from the link below: <br/>
 [Streamtape Downloader for Android](https://github.com/serhat-demir/streamtape-downloader/releases/download/1.0.1/streamtape-downloader.apk "Streamtape Downloader for Android")
