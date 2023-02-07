@@ -15,8 +15,4 @@ class MainViewModel @Inject constructor(private val repo: StreamtapeRepository):
     fun getDownloadTicket(file: String) {
         repo.getDownloadTicket(file)
     }
-
-    fun setCredentials(login: String, key: String) {
-        repo.setCredentials(login, key)
-    }
 }

@@ -7,7 +7,7 @@ import com.serhatd.streamtapedownloader.R
 import com.serhatd.streamtapedownloader.data.model.DownloadLink
 import com.serhatd.streamtapedownloader.data.model.DownloadResponse
 import com.serhatd.streamtapedownloader.data.model.TicketResponse
-import com.serhatd.streamtapedownloader.data.prefs.SharedPrefs
+import com.serhatd.streamtapedownloader.data.retrofit.ApiClient
 import com.serhatd.streamtapedownloader.data.retrofit.ApiInterface
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -22,13 +22,8 @@ class StreamtapeRepository(private val apiService: ApiInterface, private val con
     val progressMessage = MutableLiveData<String>()
 
     fun getDownloadTicket(file: String) {
-        val login = SharedPrefs.getSharedPreference(context, context.resources.getString(R.string.prefs_login))
-        val key = SharedPrefs.getSharedPreference(context, context.resources.getString(R.string.prefs_key))
-
-        if (login.isEmpty() || key.isEmpty()) {
-            toastObserver.value = context.resources.getString(R.string.msg_credentials_error)
-            return
-        }
+        val login = ApiClient.API_USER
+        val key = ApiClient.API_PASS
 
         if (file.trim().isEmpty()) {
             toastObserver.value = context.resources.getString(R.string.msg_file_id_error)
@@ -90,17 +85,5 @@ class StreamtapeRepository(private val apiService: ApiInterface, private val con
                     }
                 })
         )
-    }
-
-    fun setCredentials(login: String, key: String) {
-        if (login.isEmpty() || key.isEmpty()) {
-            toastObserver.value = context.resources.getString(R.string.msg_credentials_empty)
-            return
-        }
-
-        SharedPrefs.setSharedPreference(context, context.resources.getString(R.string.prefs_login), login)
-        SharedPrefs.setSharedPreference(context, context.resources.getString(R.string.prefs_key), key)
-
-        toastObserver.value = context.resources.getString(R.string.msg_credentials_saved)
     }
 }

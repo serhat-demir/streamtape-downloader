@@ -8,6 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 class ApiClient {
     companion object {
         private const val BASE_URL = "https://api.streamtape.com/file/"
+        public const val API_USER = "6449fe61adb4f182b648"
+        public const val API_PASS = "xraLO3PJKRtkGyx"
 
         fun getApiService(): ApiInterface {
             val client = OkHttpClient.Builder()
