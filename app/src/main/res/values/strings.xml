@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Streamtape Downloader</string>
+
+    <!-- download screen -->
+    <string name="lbl_title">Streamtape\nVideo Downloader</string>
+    <string name="video_url">Video Url</string>
+    <string name="video_url_hint">Paste the video url here</string>
+    <string name="btn_c">C</string>
+    <string name="btn_download">Download</string>
+
+    <string name="video_is_preparing_to_download">Video is preparing to download: %1$d%%</string>
+    <string name="download_url_generating">Download url is generating…</string>
+    <string name="video_is_ready_to_download">Video is Ready To Download</string>
+
+    <string name="btn_copy_url">Copy Download Url</string>
+    <string name="btn_start_download">Start Download</string>
+
+    <string name="video_title">Video Title</string>
+    <string name="download_url">Download Url</string>
+
+    <string name="download_link_copied">The download link copied to clipboard</string>
+
+    <!-- toast messages -->
+    <string name="msg_video_url_empty">Video url can not be empty.</string>
+    <string name="msg_video_url_invalid">Invalid video url.</string>
+    <string name="msg_video_is_ready_to_download">Video is ready to download.</string>
+    <string name="msg_something_went_wrong">Something went wrong. Try again later.</string>
+    <string name="msg_server_down">Streamtape service is not working for a few hours. Try again later.</string>
+
+    <!-- connection messages -->
+    <string name="alert_dialog_title_no_internet">No Internet Connection</string>
+    <string name="alert_dialog_message_no_internet">Check your internet connection.</string>
+    <string name="alert_dialog_button_ok">OK</string>
+    <string name="alert_dialog_button_try_again">Try Again</string>
+
+    <!-- popup menu -->
+    <string name="menu_download_history">Download History</string>
+    <string name="menu_app_info">App Info</string>
+
+    <!-- dialog info -->
+    <string name="btn_close">Close</string>
+
+    <!-- download history -->
+    <string name="lbl_title_history">Download History</string>
+    <string name="card_lbl_video_title">Video Title</string>
+    <string name="card_lbl_video_url">Video Url</string>
+    <string name="card_lbl_download_url">Download Url</string>
+    <string name="card_btn_open">Open</string>
+    <string name="card_btn_download">Download</string>
+
+    <string name="http_prefix">http://</string>
+    <string name="https_prefix">https://</string>
+    <string name="btn_yes">Yes</string>
+    <string name="msg_delete_all_history">Are you sure to delete all download history?</string>
+</resources>
