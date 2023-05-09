@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Streamtape Downloader</string>
+
+    <!-- download screen -->
+    <string name="lbl_title">Streamtape\nVideo Downloader</string>
+    <string name="video_url">Video Url</string>
+    <string name="video_url_hint">Paste the video url here</string>
+    <string name="btn_c">C</string>
+    <string name="btn_paste">Paste</string>
+    <string name="btn_download">Download</string>
+
+    <string name="video_is_preparing_to_download">Video is preparing to download: %1$d%%</string>
+
+    <string name="btn_copy_url">Copy Link to Clipboard</string>
+    <string name="btn_download_from_app">Start Download</string>
+    <string name="btn_download_from_browser">Download via Browser</string>
+
+    <string name="link_copied">Link copied to clipboard</string>
+
+    <!-- toast messages -->
+    <string name="msg_video_url_empty">Video url can not be empty.</string>
+    <string name="msg_video_url_invalid">Invalid video url.</string>
+    <string name="msg_video_is_ready_to_download">Video is ready to download.</string>
+    <string name="msg_something_went_wrong">Something went wrong. Try again later.</string>
+    <string name="msg_server_down">Streamtape service is not working for a few hours. Try again later.</string>
+
+    <!-- connection messages -->
+    <string name="alert_dialog_title_no_internet">No Internet Connection</string>
+    <string name="alert_dialog_message_no_internet">Check your internet connection.</string>
+    <string name="alert_dialog_button_ok">OK</string>
+    <string name="alert_dialog_button_try_again">Try Again</string>
+
+    <!-- popup menu -->
+    <string name="menu_download_history">Download History</string>
+    <string name="menu_faq">Frequently Asked Questions</string>
+    <string name="menu_app_info">App Info</string>
+
+    <!-- dialog info -->
+    <string name="app_info_markdown">### App Info\n
+    - Developer: [Serhat Demir](https://github.com/serhat-demir)\n
+    - Version: 2.0.0\n\n
+    [Rate Us](https://play.google.com/store/apps/details?id=com.serhatd.streamtapedownloader)\n
+    [Request &amp; Feedback](mailto:developer.serhatd@gmail.com)</string>
+    <string name="btn_close">Close</string>
+
+    <!-- dialog faq -->
+    <string name="faq_markdown">### Frequently Asked Questions\n
+    **Q: How to download video?**\n
+    **A**: Paste the video url and click the download button.\n\n
+    **Q: It says "Video is preparing to download" but it does not download?**\n
+    **A:** Streamtape service may not be working for a few hours. Try again later.\n\n
+    **Q: It says "Invalid video url" but it is a valid url?**\n
+    **A:** The application only supports these url formats:\n
+        - https://streamtape.com/v/video_id/video_title\n
+        - https://streamtape.to/e/video_id/\n
+        - https://streamtape.cc/e/video_id/\n\n
+    If your url is valid an does not supported by this application, please send it to me via email. Then I will add its format to the app.\n\n
+    **Q: It stops downloading after a few seconds?**\n
+    **A**: You can try to download the video via browser. Click the "Download via Browser" button and download the video from the browser.\n\n
+    [Request &amp; Feedback](mailto:developer.serhatd@gmail.com)</string>
+
+    <!-- download history -->
+    <string name="lbl_title_history">Download History</string>
+    <string name="card_lbl_video_title">Video Title</string>
+    <string name="card_lbl_video_url">Video Url</string>
+    <string name="card_lbl_download_url">Download Url</string>
+    <string name="card_btn_open">Open in Browser</string>
+    <string name="card_btn_download">Download Video</string>
+    <string name="card_btn_download_via_browser">Download via Browser</string>
+
+    <string name="http_prefix" translatable="false">http://</string>
+    <string name="https_prefix" translatable="false">https://</string>
+    <string name="btn_yes">Yes</string>
+    <string name="msg_delete_all_history">Are you sure to delete all download history?</string>
+    <string name="msg_delete_history_row">Are you sure you want to delete this row?</string>
+</resources>

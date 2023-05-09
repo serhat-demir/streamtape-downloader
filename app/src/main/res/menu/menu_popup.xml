@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionDownloadHistory"
+        android:title="@string/menu_download_history" />
+    <item
+        android:id="@+id/actionFaq"
+        android:title="@string/menu_faq" />
+    <item
+        android:id="@+id/actionAppInfo"
+        android:title="@string/menu_app_info" />
+</menu>

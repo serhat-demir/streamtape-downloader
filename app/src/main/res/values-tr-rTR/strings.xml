@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Streamtape Downloader</string>
+
+    <!-- download screen -->
+    <string name="lbl_title">Streamtape\nVideo Downloader</string>
+    <string name="video_url">Video Bağlantısı</string>
+    <string name="video_url_hint">Video bağlantısını buraya yapıştırın</string>
+    <string name="btn_c">C</string>
+    <string name="btn_paste">Yapıştır</string>
+    <string name="btn_download">İndir</string>
+
+    <string name="video_is_preparing_to_download">Video indirmeye hazırlanıyor: %1$d%%</string>
+
+    <string name="btn_copy_url">Bağlantıyı Kopyala</string>
+    <string name="btn_download_from_app">İndirmeyi Başlat</string>
+    <string name="btn_download_from_browser">Tarayıcı ile İndir</string>
+
+    <string name="link_copied">Bağlantı kopyalandı</string>
+
+    <!-- toast messages -->
+    <string name="msg_video_url_empty">Video bağlantısı boş olamaz.</string>
+    <string name="msg_video_url_invalid">Geçersiz video bağlantısı.</string>
+    <string name="msg_video_is_ready_to_download">Video indirmeye hazır.</string>
+    <string name="msg_something_went_wrong">Bir şeyler ters gitti. Daha sonra tekrar deneyin.</string>
+    <string name="msg_server_down">Streamtape servisi geçici olarak çalışmıyor. Daha sonra tekrar deneyin.</string>
+
+    <!-- connection messages -->
+    <string name="alert_dialog_title_no_internet">İnternet Bağlantısı Yok</string>
+    <string name="alert_dialog_message_no_internet">İnternet bağlantınızı kontrol edin.</string>
+    <string name="alert_dialog_button_ok">Tamam</string>
+    <string name="alert_dialog_button_try_again">Tekrar Dene</string>
+
+    <!-- popup menu -->
+    <string name="menu_download_history">İndirme Geçmişi</string>
+    <string name="menu_faq">Sık Sorulan Sorular</string>
+    <string name="menu_app_info">Uygulama Bilgisi</string>
+
+    <!-- dialog info -->
+    <string name="app_info_markdown">### Uygulama Bilgisi\n
+    - Geliştirici: [Serhat Demir](https://github.com/serhat-demir)\n
+    - Versiyon: 2.0.0\n\n
+    [Puan Ver](https://play.google.com/store/apps/details?id=com.serhatd.streamtapedownloader)\n
+    [İstek &amp; Geri Bildirim](mailto:developer.serhatd@gmail.com)</string>
+    <string name="btn_close">Close</string>
+
+    <!-- dialog faq -->
+    <string name="faq_markdown">### Sık Sorulan Sorular\n
+    **S: Nasıl video indirebilirim?**\n
+    **C**: Video bağlantısını yapıştırın ve indir butonuna basın.\n\n
+    **S: \"Video indirmek için hazırlanıyor\" diyor fakat indirmiyor?**\n
+    **C:** Streamtape servisi geçici olarak çalışmıyor olabilir. Daha sonra tekrar deneyin.\n\n
+    **S: \"Geçersiz video bağlantısı\" diyor fakat bağlantı geçerli?**\n
+    **C:** Uygulama sadece bu video bağlantısı formatlarını destekliyor:\n
+        - https://streamtape.com/v/video_id/video_başlığı\n
+        - https://streamtape.to/e/video_id/\n
+        - https://streamtape.cc/e/video_id/\n\n
+    Eğer video bağlantınız geçerliyse ve uygulama tarafından desteklenmiyorsa, bağlantı formatınızı uygulamaya eklemem için bana mail ile gönderebilirsiniz.\n\n
+    **S: İndirme başladıktan birkaç saniye sonra duruyor?**\n
+    **C**: \"Tarayıcı ile İndir\" butonuna basıp videoyu tarayıcıdan indirebilirsiniz.\n\n
+    [İstek &amp; Geri Bildirim](mailto:developer.serhatd@gmail.com)</string>
+
+    <!-- download history -->
+    <string name="lbl_title_history">İndirme Geçmişi</string>
+    <string name="card_lbl_video_title">Video Başlığı</string>
+    <string name="card_lbl_video_url">Video Bağlantısı</string>
+    <string name="card_lbl_download_url">İndirme Bağlantısı</string>
+    <string name="card_btn_open">Tarayıcıda Aç</string>
+    <string name="card_btn_download">Videoyu İndir</string>
+    <string name="card_btn_download_via_browser">Tarayıcı ile İndir</string>
+
+    <string name="btn_yes">Evet</string>
+    <string name="msg_delete_all_history">Bütün indirme geçmişini temizlemek istediğinize emin misiniz?</string>
+    <string name="msg_delete_history_row">Bu kayıtı silmek istediğinize emin misiniz?</string>
+</resources>
